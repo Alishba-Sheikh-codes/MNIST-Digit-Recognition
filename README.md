@@ -6,29 +6,25 @@ This is a simple Streamlit web app that classifies handwritten digits (0–9) us
 
 ## 📂 Project Structure
 
-📁 your_project_folder/
+📁MNIST/
 ├── app.py # Streamlit application script
-├── random_forest_model.pkl # Trained Random Forest model (joblib format)
-├── example_images/ # Digit images for testing
-│ ├── digit_3.png
-│ ├── digit_7.jpg
-│ └── ...
+├── random_forest_model.pkl # Trained Random Forest model (will be formed when you run random classifier cell)
+|── nine.png
+│── two.jpg #images for testing in streamlit app
+│── ...
 └── README.md # This file
 
 ## 📸 Sample Predictions
 
 | Input Image | Predicted Digit |
 |-------------|-----------------|
-| ![digit_3](example_images/digit_3.png) | 3 |
-| ![digit_7](example_images/digit_7.jpg) | 7 |
-
----
-
+| ![nine](MNIST-Digit-Recognition/nine.png) | 9 |
+| ![two](MNIST-Digit-Recognition/two.jpg) | 2 |
 ## ⚙️ How to Run the App (Anaconda Prompt)
 
 1. Open **Anaconda Prompt**.
 2. Navigate to your project directory:
-   cd path\to\your_project_folder
+   cd path\to\your_working_directory
 Run the Streamlit app:
 streamlit run app.py
 A browser window will open with the web interface.
